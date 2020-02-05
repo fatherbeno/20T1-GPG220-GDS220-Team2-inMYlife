@@ -1,2 +1,2 @@
-# 20T1-GPG220-Team2-inMYlife
+# 20T1-GPG220/GDS220-Team2-inMYlife
  
