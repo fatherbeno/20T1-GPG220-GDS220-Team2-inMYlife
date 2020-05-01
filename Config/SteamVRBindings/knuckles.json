@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
@@ -63,7 +63,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
@@ -74,7 +74,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
@@ -85,13 +85,35 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
 						"click":
 						{
 							"output": "/actions/main/in/MotionControllerGripLeft"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/MotionControllerTriggerRight"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/MotionControllerTriggerLeft"
 						}
 					}
 				},
@@ -151,5 +173,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "Virtual Reality BP Game Template-11590370"
 }
